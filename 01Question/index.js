@@ -111,40 +111,66 @@
 // //     - Find out the numbers of seconds elapsed from January 1, 1970 to now.
 // console.log(Math.floor(Date.now() / 1000));
 
-// 12. Create a human readable time format using the Date time object
-let today = new Date();
-let year = today.getFullYear();
-let month = (today.getMonth() + 1).toString().padStart(2, '0');
-let date = today.getDate().toString().padStart(2, '0');
-let hours = today.getHours().toString().padStart(2, '0');
-let minutes = today.getMinutes().toString().padStart(2, '0');
-//     - YYYY-MM-DD HH:mm
-let formattedDate = `${year}-${month}-${date} ${hours}:${minutes}`;
-console.log(formattedDate);
-//     - DD-MM-YYYY HH:mm
-let formattedDate1 = `${date}-${month}-${year} ${hours}:${minutes}`
-console.log(formattedDate1)
-//     - DD/MM/YYYY HH:mm
-let formattedDate2 = `${date}/${month}/${year} ${hours}:${minutes}`
-console.log(formattedDate2);
+// // 12. Create a human readable time format using the Date time object
+// let today = new Date();
+// let year = today.getFullYear();
+// let month = (today.getMonth() + 1).toString().padStart(2, '0');
+// let date = today.getDate().toString().padStart(2, '0');
+// let hours = today.getHours().toString().padStart(2, '0');
+// let minutes = today.getMinutes().toString().padStart(2, '0');
+// //     - YYYY-MM-DD HH:mm
+// let formattedDate = `${year}-${month}-${date} ${hours}:${minutes}`;
+// console.log(formattedDate);
+// //     - DD-MM-YYYY HH:mm
+// let formattedDate1 = `${date}-${month}-${year} ${hours}:${minutes}`
+// console.log(formattedDate1)
+// //     - DD/MM/YYYY HH:mm
+// let formattedDate2 = `${date}/${month}/${year} ${hours}:${minutes}`
+// console.log(formattedDate2);
 
 
-// 13. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to wait for the number of years he needs to turn 18.
+// // 13. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to wait for the number of years he needs to turn 18.
+// let age = prompt('Enter your age:');
+// if(age>18){
+//     console.log('You are old enough to drive');
+// }else{
+//     console.log(`You are not 18 year old. You need to wait ${18-age} years to turn 18.`);
+// }
 
-// 14. Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript? Create a program which checks that the given number is even or odd.
+// // 14. Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript? Create a program which checks that the given number is even or odd.
+// let number= 5
+// if(number%2 == 0){
+//     console.log('Even Number')
+// }else{
+//     console.log('Odd Number')
+// }
 
-// 15. Write a program which can give grades to students according to theirs scores:
-//     - 80-100, A
-//     - 70-89, B
-//     - 60-69, C
-//     - 50-59, D
-//     - 0-49, F
+// // 15. Write a program which can give grades to students according to theirs scores:
+// //     - 80-100, A
+// //     - 70-89, B
+// //     - 60-69, C
+// //     - 50-59, D
+// //     - 0-49, F
+// let score = 59
+// if(score >=80 && score<=100){
+//     console.log("A grade")
+// }else if(score >=70 && score<=79){
+//     console.log("B grade")
+// }else if(score >=60 && score<=69){
+//     console.log("C grade")
+// }else if(score >=50 && score<=59){
+//     console.log("D grade")
+// }else if(score >=0 && score<=49){
+//     console.log("E grade")
+// }
 
 // 16. Check if the season is Autumn, Winter, Spring or Summer. If the user input is :
 //     - September, October or November, the season is Autumn.
 //     - December, January or February, the season is Winter.
 //     - March, April or May, the season is Spring
 //     - June, July or August, the season is Summer
+// let month = 'September'
+// if(month === )
 
 // 17. Write a program which tells the number of days in a month.
 
